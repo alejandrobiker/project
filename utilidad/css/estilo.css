@@ -1,0 +1,578 @@
+/*Con estas propiedades de html se logra que el footer se coloque al final de la pagina asi no tenga contenido*/
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body{
+	background-image:url("../img/fondo.png");
+	/*background-repeat: no-repeat;*/
+ 	/*background-position: 100% 70%;*/
+ 	/*background-color: #F8F8F8;*/
+	/* Propiedades para ajustar boton del iniciar sesion y colocal el footer al final */
+	margin-top: 60px;
+    margin-bottom: 250px;
+}
+
+p{
+  text-align: justify;
+}
+.sesion{
+	/*position: fixed;*/
+	margin-top: 13px;
+	/*z-index: 10;*/
+}
+
+ul .horizontal li{
+	display:block;
+	float:left;
+	padding:0 10px;
+}
+
+ul.menu li{
+	list-style: none;
+	text-decoration: none;
+	position: relative;
+	margin-left:-35px;
+}
+.activee{
+	background: #f5f5f5;
+}
+
+.ss{
+	text-align: justify;
+    text-justify: inter-word;
+}
+.unidad{
+	font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+	font-weight: bold;
+	font-size: 38px;
+	color:#363a6d;
+}
+
+/*barra de busqueda*/
+
+.search_bar{
+	padding: 8px 10px;
+	box-sizing: border-box;
+	transition: all .5s ease;
+}
+.search_bar input{
+	width: 120px;
+	height: auto;
+	border-radius: 8px;
+	border:none;
+	padding: 0px 0px 0px 30px;
+	box-sizing: border-box;
+	height: 30px;
+	box-shadow: inset 1px 1px 5px rgba(0,0,0, .5);
+	background: #f5f5f5;
+}
+.search_bar input:focus{
+	background: #fff;
+	box-shadow: inset 1px 1px 5px rgba(0,0,0, .5);
+}
+input.search_bar:hover {
+  width: 300px;
+}
+.glyphicon-search{
+	left: 25px;
+	color: #6A6A6A;
+	text-decoration: none;
+}
+.glyphicon-search:hover{
+	color: #6A6A6A;
+	text-decoration: none;
+}
+/*fin de la barra de busqueda*/
+.banner{
+	background-color: #000;
+	width: 100%;
+	box-shadow: 0px 0px 2px  0px #DBDBDB;
+	position:fixed !important;
+	right:0px;
+	top:0px;
+	z-index:10 !important
+}
+.menu_fixed{
+	width: 17%;
+	position:fixed !important;
+	z-index:10 !important;
+	background: transparent;
+}
+.modal_ingresar{
+	font-size: 12px;
+	padding: 5px;
+	position: relative;
+	margin-top:0px;
+	float:right;
+}
+.logo{
+	width: 380px;
+	margin-top: -20px;
+	/*TOP, RIGHT, Bottom, LEFT*/
+	padding: 0px 0px -10px 10px;
+	opacity: 0.9;
+}
+.logo:hover{
+	opacity: 1;
+	-webkit-transform:scale(1.07);
+}
+.logo_download{
+	width:60px;
+}
+
+/* Movimiento de imagen al 180° */
+.flip3D{
+	width: 220px;
+	height: 180px;
+}
+.logo_wiki{
+	width: 200px;
+	height: 180px;
+}
+.flip3D > .front{
+	position: absolute;
+	transform: perspective( 600px ) rotateY( 0deg);
+	-webkit-transform: perspective( 600px ) rotateY( 0deg);
+	/*background: transparent; width: 220px; height: 180px; border-radius: 7px;*/
+	backface-visibility: hidden;
+	transition: transform .6s linear 0s;
+	transition: -webkit-transform .6s linear 0s;
+}
+.flip3D > .back{
+	position: absolute;
+	transform: perspective( 600px ) rotateY( 180deg);
+	-webkit-transform: perspective( 600px ) rotateY( 180deg);
+	/*background: transparent; width: 220px; height: 180px; border-radius: 7px;*/
+	backface-visibility: hidden;
+	transition: transform .6s linear 0s;
+	transition: -webkit-transform .6s linear 0s;
+}
+.flip3D:hover > .front{
+	transform: perspective( 600px ) rotateY( -180deg);
+}
+.flip3D:hover > .back{
+	transform: perspective( 600px ) rotateY( 0deg);
+}
+/*Fin del movimiento de la imagen*/
+
+.logo_pdf{
+	width: 150px;
+	/*TOP, RIGHT, Bottom, LEFT*/
+	padding: 5px 0px 0px 0px;
+	opacity: 0.9;
+}
+.logo_pdf:hover{
+	opacity: 1;
+	-webkit-transform:scale(1.08);
+}
+.logo_video{
+	width: 150px;
+	/*TOP, RIGHT, Bottom, LEFT*/
+	padding: 5px 0px 0px 0px;
+	opacity: 0.3;
+}
+.logo_video:hover{
+	opacity: 1;
+}
+.botonico{
+    float: right;
+}
+.letra_efecto{
+	text-decoration: none;
+	color: #2968A4;
+}
+.letra_efecto:hover{
+	text-decoration:none;
+	color: #194875;
+}
+.letra_admin_efecto{
+	color: #CC1818;
+}
+.letra_admin_efecto:hover{
+	color: #CC1818;
+	text-decoration: none;
+}
+.thumbnail{
+	box-shadow: 1px 1px 10px 0px #DBDBDB;
+}
+.parrafo{
+	text-align:  justify;
+	color:#1A3B1D;
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+}
+.parrafo1{
+	text-align:  center;
+	color:#1A3B1D;
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+}
+.parrafoo{
+	text-align:  center;
+	color:#1A3B1D;
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	padding: 5px;
+}
+.lista{
+	text-align: justify;
+}
+
+
+.modal-body p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #777777;
+}
+.text-muted {
+	color: #0A220B;
+	text-align: justify;
+}
+.img-centered {
+  margin: 0 auto;
+}
+.Add_contenido{
+	font-size: 12px;
+	border: none;
+	background-color: transparent;
+	color:#6CA4E3;
+}
+
+.sin_boton{
+	border: none;
+	background-color: transparent;
+}
+
+.botones{
+	font-size: 12px;
+	border: none;
+	background-color: transparent;
+	color:#6CA4E3;
+	float:left;
+}
+.botones_modal{
+	font-size: 14px;
+	margin:auto;
+	border: none;
+	background-color: transparent;
+	color:#6CA4E3;
+}
+.privado{
+	font-size: 12px;
+	border: none;
+	background-color: transparent;
+	color:#6CA4E3;
+	float:right;
+}
+
+.logo-modal{
+	width: 15%;
+}
+.warning{
+	color:#FD0000;
+}
+.btn-close{
+	color:#fff;
+	background-color:#919090;
+	border-color:transparent;
+}
+.btn-close:hover{
+	color:#fff;
+	background-color:#727272;
+	border-color:transparent;
+}
+.agarrarimagen{
+	position: relative;
+	top: 0px;
+	left: 0%;
+	/*border-top: 2px groove #000;
+	border-left: 2px groove #000;
+	border-right: 2px groove #000;
+	border-bottom: 2px groove #000;*/
+}
+
+/*este css sirve para agarrar la imagen en el modal*/
+.file{
+	position: absolute;
+	top: 0px;
+	left: 40%;
+	width: 100px;
+	height: 200px;
+	opacity: 0;
+	cursor: pointer;
+	border: groove #0C0;
+}
+
+.mostrar {
+	position: relative;
+	top: 0px;
+	left: 40%;
+	padding-bottom: 10px;
+}
+.modales{
+	cursor: pointer;
+}
+
+.img_instalacion{
+	border-radius: 10px;
+	box-shadow: 3px 3px 1px #888888;
+	width: 300px;
+	height: 250px;
+}
+
+.a_none{
+	color:#2B2727;
+	text-decoration: none;
+}
+
+/*////////////////////////////////////////////////
+			Carrousel Inicial
+////////////////////////////////////////////////*/
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+
+.carousel-inner {
+  border-radius: 5px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+
+/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+
+.section-white {
+   padding: 10px 0;
+}
+
+.section-white {
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+
+  .section-white {
+     padding: 1.5em 0;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .container {
+    max-width: 930px;
+  }
+
+}
+
+
+/* ===============================
+16. Footer
+================================ */
+/*Con la propiedad [position: absolute] hace que se coloque el footer al final de la pagina*/
+footer{
+
+  background-color: #222222;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 195px;
+
+}
+
+#sub-footer{
+	background: #333333;
+}
+
+footer{
+	padding-top:10px;
+	color:#f8f8f8;
+}
+
+footer a {
+	color:#fff;
+}
+
+footer a:hover {
+	color:#eee;
+}
+
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6{
+	color:#fff;
+}
+
+footer address {
+	line-height:1.6em;
+}
+
+footer h5 a:hover, footer a:hover {
+	text-decoration:none;
+}
+
+ul.social-network {
+	list-style:none;
+	margin:0;
+}
+
+ul.social-network li {
+	display:inline;
+	margin: 0 5px;
+}
+
+#sub-footer{
+	text-shadow:none;
+	color:#f5f5f5;
+	padding:0;
+	padding:15px;
+	margin:20px 0 0 0;
+}
+
+#sub-footer p{
+	margin:0;
+	padding:0;
+}
+
+#sub-footer span{
+	color:#f5f5f5;
+}
+
+.copyright {
+	text-align:left;
+	font-size:12px;
+}
+
+#sub-footer ul.social-network {
+	float:right;
+}
+.img_index{
+	margin: auto;
+	width: 150px;
+}
+.img_index1{
+	width: 100px;
+}
+.wiki_letra{
+	margin-left: 20px;
+}
+
+/* ===============================
+17. RESPONSIVE
+================================ */
+@media screen and (max-width: 2000px){
+	.img_index{
+		width: 120px;
+	}
+}
+
+@media screen and (max-width: 1400px){
+	article img{
+		width: 100%;
+	}
+	.img_index{
+		width: 120px;
+	}
+	.img_index1{
+		width: 120px;
+	}
+}
+
+@media screen and (max-width: 993px){
+	.img_index{
+		display: none;
+	}
+	.flip3D{
+		display: none;
+	}
+	.wiki_letra{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 780px){
+	#carrousel{
+		display: none;
+	}
+	article img{
+		width: 100%;
+	}
+	article img{
+		display: none;
+	}
+}
+
+/* ===============================
+18. PAGE LOGIN CONFIGURATION
+================================ */
+
+.form-login {
+	max-width: 330px;
+	margin: 100px auto 0;
+	background: #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.form-login h2.form-login-heading {
+	margin: 0;
+	padding: 25px 20px;
+	text-align: center;
+	background: #0A1D39;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.login-wrap {
+	padding: 20px;
+}
+.login-wrap .registration {
+	float: right;
+}
+
+.form_width{
+	width: 30%;
+}
+.form_width2{
+	width: 70%;
+}

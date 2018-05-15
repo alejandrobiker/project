@@ -1,0 +1,181 @@
+Options -Indexes
+
+RewriteEngine On
+#Vencert
+
+RewriteRule   ^wiki_vencert/gestion_incidentes/index$   wiki_vencert/gestion_incidentes/index.php
+RewriteRule   ^wiki_vencert/gestion_incidentes/manual$   wiki_vencert/gestion_incidentes/manual.php
+RewriteRule   ^wiki_vencert/gestion_incidentes/tutoriales$   wiki_vencert/gestion_incidentes/tutoriales.php
+
+RewriteRule   ^wiki_vencert/OAM/index$   wiki_vencert/OAM/index.php
+RewriteRule   ^wiki_vencert/OAM/manual$   wiki_vencert/OAM/manual.php
+RewriteRule   ^wiki_vencert/OAM/tutoriales$   wiki_vencert/OAM/tutoriales.php
+
+RewriteRule   ^wiki_vencert/seguridad_logica/index$   wiki_vencert/seguridad_logica/index.php
+RewriteRule   ^wiki_vencert/seguridad_logica/manual$   wiki_vencert/seguridad_logica/manual.php
+RewriteRule   ^wiki_vencert/seguridad_logica/tutoriales$   wiki_vencert/seguridad_logica/tutoriales.php
+
+
+#Servicios Tecnicos
+
+RewriteRule   ^wiki_servicio_tecnico/certificacion_electronica_criptografica/index$   wiki_servicio_tecnico/certificacion_electronica_criptografica/index.php
+RewriteRule   ^wiki_servicio_tecnico/certificacion_electronica_criptografica/manual$   wiki_servicio_tecnico/certificacion_electronica_criptografica/manual.php
+RewriteRule   ^wiki_servicio_tecnico/certificacion_electronica_criptografica/tutoriales$   wiki_servicio_tecnico/certificacion_electronica_criptografica/tutoriales.php
+
+
+#Cenif
+
+RewriteRule   ^wiki_cenif/fuentes_abiertas/index$   wiki_cenif/fuentes_abiertas/index.php
+RewriteRule   ^wiki_cenif/fuentes_abiertas/manual$   wiki_cenif/fuentes_abiertas/manual.php
+RewriteRule   ^wiki_cenif/fuentes_abiertas/tutoriales$   wiki_cenif/fuentes_abiertas/tutoriales.php
+
+RewriteRule   ^wiki_cenif/equipos_moviles/index$   wiki_cenif/equipos_moviles/index.php
+RewriteRule   ^wiki_cenif/equipos_moviles/manual$   wiki_cenif/equipos_moviles/manual.php
+RewriteRule   ^wiki_cenif/equipos_moviles/tutoriales$   wiki_cenif/equipos_moviles/tutoriales.php
+
+RewriteRule   ^wiki_cenif/dispositivos_almacenamiento/index$   wiki_cenif/dispositivos_almacenamiento/index.php
+RewriteRule   ^wiki_cenif/dispositivos_almacenamiento/manual$   wiki_cenif/dispositivos_almacenamiento/manual.php
+RewriteRule   ^wiki_cenif/dispositivos_almacenamiento/tutoriales$   wiki_cenif/dispositivos_almacenamiento/tutoriales.php
+
+RewriteRule   ^wiki_cenif/electronica/index$   wiki_cenif/electronica/index.php
+RewriteRule   ^wiki_cenif/electronica/manual$   wiki_cenif/electronica/manual.php
+RewriteRule   ^wiki_cenif/electronica/tutoriales$   wiki_cenif/electronica/tutoriales.php
+
+RewriteRule   ^wiki_cenif/img_aud_vid/index$   wiki_cenif/img_aud_vid/index.php
+RewriteRule   ^wiki_cenif/img_aud_vid/manual$   wiki_cenif/img_aud_vid/manual.php
+RewriteRule   ^wiki_cenif/img_aud_vid/tutoriales$   wiki_cenif/img_aud_vid/tutoriales.php
+
+
+
+#Adminitracion
+
+RewriteRule   ^wiki_administracion/administracion/index$   wiki_administracion/administracion/index.php
+RewriteRule   ^wiki_administracion/administracion/manual$   wiki_administracion/administracion/manual.php
+RewriteRule   ^wiki_administracion/administracion/tutoriales$   wiki_administracion/administracion/tutoriales.php
+
+
+
+#PLanificacion Organisacion y presupuesto
+
+RewriteRule   ^wiki_planificacion_organizacion_presupuesto/organizacion/index$   wiki_planificacion_organizacion_presupuesto/organizacion/index.php
+RewriteRule   ^wiki_planificacion_organizacion_presupuesto/organizacion/manual$   wiki_planificacion_organizacion_presupuesto/organizacion/manual.php
+RewriteRule   ^wiki_planificacion_organizacion_presupuesto/organizacion/tutoriales$   wiki_planificacion_organizacion_presupuesto/organizacion/tutoriales.php
+
+RewriteRule   ^wiki_planificacion_organizacion_presupuesto/planificacion/index$   wiki_planificacion_organizacion_presupuesto/planificacion/index.php
+RewriteRule   ^wiki_planificacion_organizacion_presupuesto/planificacion/manual$   wiki_planificacion_organizacion_presupuesto/planificacion/manual.php
+RewriteRule   ^wiki_planificacion_organizacion_presupuesto/planificacion/tutoriales$   wiki_planificacion_organizacion_presupuesto/planificacion/tutoriales.php
+
+RewriteRule   ^wiki_planificacion_organizacion_presupuesto/presupuesto/index$   wiki_planificacion_organizacion_presupuesto/presupuesto/index.php
+RewriteRule   ^wiki_planificacion_organizacion_presupuesto/presupuesto/manual$   wiki_planificacion_organizacion_presupuesto/presupuesto/manual.php
+RewriteRule   ^wiki_planificacion_organizacion_presupuesto/presupuesto/tutoriales$   wiki_planificacion_organizacion_presupuesto/presupuesto/tutoriales.php
+
+
+#Asesoria Legal
+
+RewriteRule   ^wiki_asesoria_legal/dictamenes/index$   wiki_asesoria_legal/dictamenes/index.php
+RewriteRule   ^wiki_asesoria_legal/dictamenes/manual$   wiki_asesoria_legal/dictamenes/manual.php
+RewriteRule   ^wiki_asesoria_legal/dictamenes/tutoriales$   wiki_asesoria_legal/dictamenes/tutoriales.php
+
+RewriteRule   ^wiki_asesoria_legal/convenios/index$   wiki_asesoria_legal/convenios/index.php
+RewriteRule   ^wiki_asesoria_legal/convenios/manual$   wiki_asesoria_legal/convenios/manual.php
+RewriteRule   ^wiki_asesoria_legal/convenios/tutoriales$   wiki_asesoria_legal/convenios/tutoriales.php
+
+RewriteRule   ^wiki_asesoria_legal/pronunciamientos/index$   wiki_asesoria_legal/pronunciamientos/index.php
+RewriteRule   ^wiki_asesoria_legal/pronunciamientos/manual$   wiki_asesoria_legal/pronunciamientos/manual.php
+RewriteRule   ^wiki_asesoria_legal/pronunciamientos/tutoriales$   wiki_asesoria_legal/pronunciamientos/tutoriales.php
+
+
+#recursos Humanos
+
+
+RewriteRule   ^wiki_recursos_humanos/hcm/index$    wiki_recursos_humanos/hcm/index.php
+RewriteRule   ^wiki_recursos_humanos/hcm/manual$    wiki_recursos_humanos/hcm/manual.php
+RewriteRule   ^wiki_recursos_humanos/hcm/tutoriales$     wiki_recursos_humanos/hcm/tutoriales.php
+
+
+RewriteRule   ^wiki_recursos_humanos/nomina/index$   wiki_recursos_humanos/nomina/index.php
+RewriteRule   ^wiki_recursos_humanos/nomina/manual$   wiki_recursos_humanos/nomina/manual.php
+RewriteRule   ^wiki_recursos_humanos/nomina/tutoriales$   wiki_recursos_humanos/nomina/tutoriales.php
+
+
+# Servicios Tecnicos
+
+
+RewriteRule   ^wiki_servicio_tecnico/certificacion_electronica_criptografica/index$   wiki_servicio_tecnico/certificacion_electronica_criptografica/index.php
+RewriteRule   ^wiki_servicio_tecnico/certificacion_electronica_criptografica/manual$   wiki_servicio_tecnico/certificacion_electronica_criptografica/manual.php
+RewriteRule   ^wiki_servicio_tecnico/certificacion_electronica_criptografica/tutoriales$   wiki_servicio_tecnico/certificacion_electronica_criptografica/tutoriales.php
+
+
+RewriteRule   ^wiki_servicio_tecnico/formacion_desarrollo/index$   wiki_servicio_tecnico/formacion_desarrollo/index.php
+RewriteRule   ^wiki_servicio_tecnico/formacion_desarrollo/manual$   wiki_servicio_tecnico/formacion_desarrollo/manual.php
+RewriteRule   ^wiki_servicio_tecnico/formacion_desarrollo/tutoriales$   wiki_servicio_tecnico/formacion_desarrollo/tutoriales.php
+
+RewriteRule   ^wiki_servicio_tecnico/estandarizacion_fiscalizacion/index$   wiki_servicio_tecnico/estandarizacion_fiscalizacion/index.php
+RewriteRule   ^wiki_servicio_tecnico/estandarizacion_fiscalizacion/manual$   wiki_servicio_tecnico/estandarizacion_fiscalizacion/manual.php
+RewriteRule   ^wiki_servicio_tecnico/estandarizacion_fiscalizacion/tutoriales$   wiki_servicio_tecnico/estandarizacion_fiscalizacion/tutoriales.php
+
+RewriteRule   ^wiki_servicio_tecnico/area_tecnica/index$   wiki_servicio_tecnico/area_tecnica/index.php
+RewriteRule   ^wiki_servicio_tecnico/area_tecnica/manual$   wiki_servicio_tecnico/area_tecnica/manual.php
+RewriteRule   ^wiki_servicio_tecnico/area_tecnica/tutoriales$   wiki_servicio_tecnico/area_tecnica/tutoriales.php
+
+
+#Formación Presencial y en Linea
+
+RewriteRule   ^wiki_formacion_presencial/informatica_forense/index$   wiki_formacion_presencial/informatica_forense/index.php
+RewriteRule   ^wiki_formacion_presencial/informatica_forense/manual$   wiki_formacion_presencial/informatica_forense/manual.php
+RewriteRule   ^wiki_formacion_presencial/informatica_forense/tutoriales$   wiki_formacion_presencial/informatica_forense/tutoriales.php
+
+RewriteRule   ^wiki_formacion_presencial/seguridad_informatica/index$   wiki_formacion_presencial/seguridad_informatica/index.php
+RewriteRule   ^wiki_formacion_presencial/seguridad_informatica/manual$   wiki_formacion_presencial/seguridad_informatica/manual.php
+RewriteRule   ^wiki_formacion_presencial/seguridad_informatica/tutoriales$   wiki_formacion_presencial/seguridad_informatica/tutoriales.php
+
+RewriteRule   ^wiki_formacion_presencial/criptografia/index$   wiki_formacion_presencial/criptografia/index.php
+RewriteRule   ^wiki_formacion_presencial/criptografia/manual$   wiki_formacion_presencial/criptografia/manual.php
+RewriteRule   ^wiki_formacion_presencial/criptografia/tutoriales$   wiki_formacion_presencial/criptografia/tutoriales.php
+
+
+# Rutas principales
+
+RewriteRule   ^wiki_vencert/home$   wiki_vencert/index.php
+RewriteRule   ^wiki_vencert/Usuarios$   wiki_vencert/Usuarios.php
+RewriteRule   ^wiki_vencert/bitacora$   wiki_vencert/bitacora.php
+
+RewriteRule   ^wiki_cenif/home$   wiki_cenif/index.php
+RewriteRule   ^wiki_cenif/Usuarios$   wiki_cenif/Usuarios.php
+RewriteRule   ^wiki_cenif/bitacora$   wiki_cenif/bitacora.php
+
+RewriteRule   ^wiki_administracion/home$   wiki_administracion/index.php
+RewriteRule   ^wiki_administracion/Usuarios$   wiki_administracion/Usuarios.php
+RewriteRule   ^wiki_administracion/bitacora$   wiki_administracion/bitacora.php
+
+RewriteRule   ^wiki_planificacion_organizacion_presupuesto/home$   wiki_planificacion_organizacion_presupuesto/index.php
+RewriteRule   ^wiki_planificacion_organizacion_presupuesto/Usuarios$   wiki_planificacion_organizacion_presupuesto/Usuarios.php
+RewriteRule   ^wiki_planificacion_organizacion_presupuesto/bitacora$   wiki_planificacion_organizacion_presupuesto/bitacora.php
+
+RewriteRule   ^wiki_asesoria_legal/home$   wiki_asesoria_legal/index.php
+RewriteRule   ^wiki_asesoria_legal/Usuarios$   wiki_asesoria_legal/Usuarios.php
+RewriteRule   ^wiki_asesoria_legal/bitacora$   wiki_asesoria_legal/bitacora.php
+
+RewriteRule   ^wiki_recursos_humanos/home$   wiki_recursos_humanos/index.php
+RewriteRule   ^wiki_recursos_humanos/Usuarios$   wiki_recursos_humanos/Usuarios.php
+RewriteRule   ^wiki_recursos_humanos/bitacora$   wiki_recursos_humanos/bitacora.php
+
+RewriteRule   ^wiki_servicio_tecnico/home$   wiki_servicio_tecnico/index.php
+RewriteRule   ^wiki_servicio_tecnico/Usuarios$   wiki_servicio_tecnico/Usuarios.php
+RewriteRule   ^wiki_servicio_tecnico/bitacora$   wiki_servicio_tecnico/bitacora.php
+
+RewriteRule   ^wiki_formacion_presencial/home$   wiki_formacion_presencial/index.php
+RewriteRule   ^wiki_formacion_presencial/Usuarios$   wiki_formacion_presencial/Usuarios.php
+RewriteRule   ^wiki_formacion_presencial/bitacora$   wiki_formacion_presencial/bitacora.php
+
+# Rutas de Inicio y cierre de Sesion
+
+RewriteRule   ^index$   index.php
+RewriteRule   ^sesion$   sesion.php
+RewriteRule   ^Usuarios$   Usuarios.php
+RewriteRule   ^bitacora$   bitacora.php
+RewriteRule   ^utilidad/php/Sesion$   utilidad/php/Sesion.php
+RewriteRule   ^utilidad/php/Cerrar$   utilidad/php/Cerrar.php
+
+RewriteRule   ^wiki_vencert/sesion$   wiki_vencert/sesion.php
+RewriteRule   ^utilidad/php/index.php$   utilidad/php/index.php
